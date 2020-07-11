@@ -1,0 +1,26 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true"  CodeBehind="Site1.master.cs" Inherits="IT_Project.Site1" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title>Project Management System</title>
+    <h1 style="position:absolute;top:10px;margin:auto;width:inherit;left:40%;">Project Management System</h1>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+        
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder2" runat="server">
+            </asp:ContentPlaceHolder>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder3" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+    <p style="position:absolute;bottom:10px;">Powered by: </p>
+</body>
+</html>
